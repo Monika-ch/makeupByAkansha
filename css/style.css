@@ -1,3 +1,5 @@
+
+
 body{
     font-family: 'Lora', serif;
    }
@@ -12,13 +14,51 @@ h1{
     font-size: 60px;
 }
 
-/* h2{
-    color: #3046C5;
+h5{
+    font-family: "Gloria Hallelujah";
+    font-weight: 900;
 }
 
-header h2{
-    color: #CEC8FF;
-} */
+.landPage{
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: white;
+    background-image: url('/img/stripes.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 150px 0;
+}
+
+#landNav{
+    background-color: rgb(0, 0, 0, 0);
+    margin: 50px;
+    margin-top: 50px;
+    float: right;
+}
+
+.grid1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border: 2px;
+    box-sizing: border-box;
+}
+
+.grid2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(161, 48, 48);
+    border: 2px;
+    box-sizing: border-box;
+}
+
+.grid3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(25, 180, 128);
+    border: 2px;
+    box-sizing: border-box;
+}
 
 .site-footer{
     background-image: linear-gradient(#CEC8FF, white);
