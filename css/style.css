@@ -44,6 +44,9 @@ h1 {
     margin-top: 140px;
     background-color: rgba(0, 0, 0, 0.7); }
 
+#image-carousel img {
+  height: 500px; }
+
 .facebook {
   position: fixed;
   top: 30%;
@@ -137,20 +140,21 @@ h1 {
     padding: 5px; }
     .jumbotron .btn {
       margin-top: 30px;
+      margin-bottom: 20px;
       padding: 15px 20px !important;
       font-size: 20px; }
   #testimonial .div-1, #testimonial .div-2 {
     border-bottom: 1px solid #fce1e0; }
   #testimonial .comment-1 {
-    margin-top: 50px; }
+    margin-top: -20px; }
   #testimonial .comment-2 {
-    margin-top: 100px; }
+    margin-top: 80px; }
   #testimonial .comment-3 {
     margin-top: 70px; }
   #testimonial .img-1 {
-    margin-bottom: 30px; }
+    margin-bottom: 40px; }
   #testimonial .img-2 {
-    margin-bottom: 100px; }
+    margin-bottom: 80px; }
   #testimonial a {
     margin-top: 0; }
   #testimonial .read-more {
@@ -179,3 +183,28 @@ h1 {
     right: 0; }
     .email .btn {
       padding: 6px 8px; } }
+
+@media (max-width: 576px) {
+  .jumbotron h1 {
+    font-size: 36px;
+    line-height: 1.3em;
+    padding: 0px 15px 5px 15px; }
+  .jumbotron h3 {
+    font-size: 14px;
+    line-height: 1.8em;
+    padding: 5px 15px 5px 15px; }
+  .jumbotron img {
+    padding: 5px 15px 5px 15px; }
+  .jumbotron .button {
+    padding: 5px 15px 5px 30px; }
+    .jumbotron .button .btn {
+      font-size: 16px;
+      border-radius: 6px; }
+  #text-carousel h1 {
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px; }
+  #text-carousel p {
+    font-size: 18px;
+    color: #2f2f2f;
+    margin-bottom: 20px; } }
