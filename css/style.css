@@ -36,16 +36,14 @@ h1 {
     font-size: 20px;
     background-color: rgba(231, 0, 65, 0.7);
     border: none;
-    border-radius: 16px; }
+    border-radius: 16px;
+    margin-top: -25%; }
 
 #bookingModal {
   background: url(/img/bride.jpg) no-repeat center bottom/cover; }
   #bookingModal .modal-content {
     margin-top: 140px;
     background-color: rgba(0, 0, 0, 0.7); }
-
-#image-carousel img {
-  height: 500px; }
 
 .facebook {
   position: fixed;
@@ -114,20 +112,30 @@ h1 {
     justify-content: center;
     text-align: center; }
 
+#work-section {
+  background-color: #fce1e09d; }
+  #work-section img {
+    border-radius: 15px;
+    border-left: 5px solid #8ed0d4; }
+
 #main-footer {
   font-family: 'Lora', serif;
   font-size: 12px;
-  background: linear-gradient(90deg, rgba(154, 182, 130, 0.8) 0%, rgba(15, 58, 18, 0.8) 10%, rgba(23, 44, 25, 0.8) 68%, rgba(23, 63, 30, 0.7) 87%, rgba(34, 48, 22, 0.7) 100%);
+  background: linear-gradient(90deg, rgba(154, 182, 130, 0.8) 0%, rgba(15, 58, 18, 0.8) 10%, rgba(23, 44, 25, 0.8) 68%, rgba(78, 109, 83, 0.7) 87%, rgba(34, 48, 22, 0.7) 100%);
   color: #fff;
   letter-spacing: 2px; }
-
-@media (min-width: 1200px) {
-  .jumbotron .btn {
-    margin-top: -200px; } }
 
 @media (max-width: 1200px) {
   .jumbotron .btn {
     margin-top: -80px; } }
+
+@media (min-width: 992px) {
+  #image-carousel .col-lg-4 {
+    position: absolute;
+    top: 25%;
+    right: 0%; }
+  #image-carousel .groom {
+    right: 7%; } }
 
 @media (max-width: 992px) {
   .jumbotron .btn {
@@ -207,4 +215,10 @@ h1 {
   #text-carousel p {
     font-size: 18px;
     color: #2f2f2f;
-    margin-bottom: 20px; } }
+    margin-bottom: 20px; }
+  #image-carousel .img-groom {
+    width: 100%; }
+  #image-carousel h1 {
+    font-size: 30px; }
+  #image-carousel p {
+    font-size: 18px; } }
