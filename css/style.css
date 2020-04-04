@@ -175,7 +175,7 @@ h1 {
   border: 0;
   font-weight: 400; }
 
-.ctrlq .fb-overlay {
+.ctrlq.fb-overlay {
   z-index: 0;
   position: fixed;
   height: 100vh;
@@ -187,7 +187,7 @@ h1 {
   background: rgba(0, 0, 0, 0.05);
   display: none; }
 
-.ctrlq .fb-close {
+.ctrlq.fb-close {
   z-index: 4;
   padding: 0 6px;
   background: #365899;
@@ -197,7 +197,7 @@ h1 {
   margin: 8px;
   border-radius: 3px; }
 
-.ctrlq .fb-close::after {
+.ctrlq.fb-close::after {
   content: 'x';
   font-family: sans-serif; }
 
