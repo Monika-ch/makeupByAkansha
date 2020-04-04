@@ -198,14 +198,12 @@ h1{
 .fb-livechat, .fb-widget{
     display: none;
 }
-
-.ctrlq .fb-button, .ctrlq .fb-close{
+.ctrlq.fb-button, .ctrlq.fb-close{
     position: fixed;
     right: 24px;
     cursor: pointer;
 }
-
-.ctrlq .fb-button{
+.ctrlq.fb-button{
     z-index: 1;
     background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEyOCAxMjgiIGhlaWdodD0iMTI4cHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMjggMTI4IiB3aWR0aD0iMTI4cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxyZWN0IGZpbGw9IiMwMDg0RkYiIGhlaWdodD0iMTI4IiB3aWR0aD0iMTI4Ii8+PC9nPjxwYXRoIGQ9Ik02NCwxNy41MzFjLTI1LjQwNSwwLTQ2LDE5LjI1OS00Niw0My4wMTVjMCwxMy41MTUsNi42NjUsMjUuNTc0LDE3LjA4OSwzMy40NnYxNi40NjIgIGwxNS42OTgtOC43MDdjNC4xODYsMS4xNzEsOC42MjEsMS44LDEzLjIxMywxLjhjMjUuNDA1LDAsNDYtMTkuMjU4LDQ2LTQzLjAxNUMxMTAsMzYuNzksODkuNDA1LDE3LjUzMSw2NCwxNy41MzF6IE02OC44NDUsNzUuMjE0ICBMNTYuOTQ3LDYyLjg1NUwzNC4wMzUsNzUuNTI0bDI1LjEyLTI2LjY1N2wxMS44OTgsMTIuMzU5bDIyLjkxLTEyLjY3TDY4Ljg0NSw3NS4yMTR6IiBmaWxsPSIjRkZGRkZGIiBpZD0iQnViYmxlX1NoYXBlIi8+PC9zdmc+) center no-repeat #0084ff;
     width: 60px;
@@ -224,12 +222,10 @@ h1{
     background-size: 80%;
     transition: all .2s ease-in-out;
 }
-
-.ctrlq .fb-button:focus, .ctrlq .fb-button:hover{
+.ctrlq.fb-button:focus, .ctrlq.fb-button:hover{
     transform: scale(1.1);
-    box-shadow: 0 2px 8px $color-black-trans-3, 0 4px 40px $color-black-trans-4;
+    box-shadow:0 2px 8px $color-black-trans-3, 0 4px 40px $color-black-trans-4;
 }
-
 .fb-widget{
     background: $color-white;
     z-index: 2;
@@ -248,12 +244,10 @@ h1{
     -moz-box-shadow: 0 5px 40px $color-black-trans;
     -o-box-shadow: 0 5px 40px $color-black-trans;
 }
-
 .fb-credit{
     text-align: center;
-    margin-top: 8px
+    margin-top: 8px;
 }
-
 .fb-credit a{
     transition: none;
     color: $color-fb-credit;
@@ -263,7 +257,6 @@ h1{
     border: 0;
     font-weight: 400;
 }
-
 .ctrlq .fb-overlay{
     z-index: 0;
     position: fixed;
@@ -276,7 +269,6 @@ h1{
     background: $color-black-trans-5;
     display: none;
 }
-
 .ctrlq .fb-close{
     z-index: 4;
     padding: 0 6px;
@@ -287,11 +279,10 @@ h1{
     margin: 8px;
     border-radius: 3px;
 }
-
 .ctrlq .fb-close::after{
     content: 'x';
     font-family: $font-sans-serif;
-}
+    }
 
 // FOOTER
 

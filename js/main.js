@@ -36,7 +36,6 @@ $(document).ready(function () {
 });
 
 
-
 // Scroll Animation
 
 window.sr = ScrollReveal();
@@ -44,89 +43,102 @@ sr.reveal('.navbar', {
     duration: 2000,
     origin: 'bottom'
 });
+
 sr.reveal('.header-heading', {
     duration: 2000,
     origin: 'left',
     distance: '70px'
 });
+
 window.sr = ScrollReveal();
 sr.reveal('.header-button', {
     duration: 3000,
     delay: 1500,
     origin: 'bottom',
-    // distance:'300px'
 });
+
 sr.reveal('.header-image', {
     duration: 2000,
     origin: 'right',
     distance: '70px'
 });
+
 sr.reveal('#image-carousel', {
     duration: 3000,
     distance: '300px',
     origin: 'right'
 });
+
 sr.reveal('#testimonial div', {
     duration: 2000,
     origin: 'bottom'
 });
+
 sr.reveal('.testimonial-heading', {
     duration: 2000,
     delay: 500,
     origin: 'bottom'
 });
+
 sr.reveal('.div-1', {
     duration: 2000,
     delay: 800,
     origin: 'bottom'
 });
+
 sr.reveal('.div-2', {
     duration: 2000,
     delay: 1300,
     origin: 'bottom'
 });
+
 sr.reveal('.div-3', {
     duration: 2000,
     delay: 2000,
     origin: 'bottom'
 });
+
 sr.reveal('.read-more', {
     duration: 2000,
     delay: 3000,
     origin: 'bottom',
     viewFactor: 0.2
 });
+
 sr.reveal('.facebook', {
     duration: 2000,
     delay: 2000,
     origin: 'left',
     distance: '5px'
 });
+
 sr.reveal('.instagram', {
     duration: 2000,
     delay: 2300,
     origin: 'left',
     distance: '5px'
 });
+
 sr.reveal('.phone', {
     duration: 2000,
     delay: 2600,
     origin: 'left',
     distance: '5px'
 });
+
 sr.reveal('.email', {
     duration: 2000,
     delay: 2900,
     origin: 'left',
     distance: '5px'
 });
+
 sr.reveal('.whatsapp', {
     duration: 2000,
     delay: '2000',
     origin: 'bottom',
     distance: '5px'
 });
-
 
 // Smooth Scrolling
 
