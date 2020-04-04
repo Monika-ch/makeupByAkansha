@@ -50,11 +50,11 @@
     <header class="jumbotron jumbotron.fluid pt-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 col-lg-7 order-1">
+                <div class="col-md-8 col-lg-7 order-1 header-heading">
                     <h1 class="display-4">Makeup By Akansha</h1>
                     <h3>the perfect touch to your beauty</h2>
                 </div>
-                <div class="col-md-8 col-lg-7 order-3 button">
+                <div class="col-md-8 col-lg-7 order-3 button header-button">
                     <button class="btn btn-md-lg text-white p-5 d-none d-sm-block" href="#bookingModal" data-target="#bookingModal" data-toggle="modal">Book Appointment Now</button>
                     <button class="btn btn-md-lg text-white p-5 d-sm-none" href="#bookingModal" data-target="#bookingModal" data-toggle="modal">Book Your Slot</button>
                 </div>
@@ -205,6 +205,11 @@
         <div class="container text-center mt-4">
             <div class="row ml-0 justify-content-between">
 
+                <div class="col-12 pb-5 testimonial-heading">
+                    <h4>..from clients</h4>
+                    <p>See what they have to say..</p>
+                </div>
+
                 <!-- Client One -->
                 <div class="col-lg-3 div-1">
                     <p class="comment-1">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ab recusandae amet natus, nulla
@@ -236,41 +241,6 @@
         </div>
     </section>
 
-
-
-    <!-- How We Work -->
-    <section id="work-section" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <h3>How we work</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium minus a recusandae cumque, sunt aliquam ullam!</p>
-
-                    <div class="d-flex flex-row">
-                        <div class="p-4 align-self-start">
-                            <i class="fa fa-check"></i>
-                        </div>
-                        <div class="p-4 align-self-end">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quas nesciunt repellendus deserunt quod magnam culpa beatae.
-                        </div>
-                    </div>
-
-                    <div class="d-flex flex-row">
-                        <div class="p-4 align-self-start">
-                            <i class="fa fa-check"></i>
-                        </div>
-                        <div class="p-4 align-self-end">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quas nesciunt repellendus deserunt quod magnam culpa beatae.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <img src="/img/carousel9.jpg" alt="" class="img-fluid mb-3">
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- Social Handles -->
     
@@ -311,7 +281,7 @@
     <!-- Footer -->
 
     <footer id="main-footer">
-        <p class="text-center mb-0 py-2">Makeup By Akansha Copyright &copy; 2019</p>
+        <p class="text-center mb-0 py-3">Makeup By Akansha Copyright &copy; 2019</p>
     </footer>
 
 
@@ -430,6 +400,9 @@
     <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     
+
+    <!-- Facebook Messenger -->
+
     <script>
     $(document).ready(function(){
         var t={
@@ -462,6 +435,119 @@
                         },2*t.delay);
                         t.overlay.fadeIn(t.delay);
                     });
+                }
+            });
+        });
+    </script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- Scroll Animation -->
+
+    <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar',{
+            duration: 2000,
+            origin:'bottom'
+        });
+        sr.reveal('.header-heading',{
+            duration: 2000,
+            origin:'left',
+            distance:'70px'
+        });
+        window.sr = ScrollReveal();
+        sr.reveal('.header-button',{
+            duration: 3000,
+            delay: 1500,
+            origin:'bottom',
+            // distance:'300px'
+        });
+        sr.reveal('.header-image',{
+            duration: 2000,
+            origin:'right',
+            distance:'70px'
+        });
+        sr.reveal('#image-carousel',{
+            duration: 3000,
+            distance: '300px',
+            origin:'right'
+        });
+        sr.reveal('#testimonial div',{
+            duration: 2000,
+            origin:'bottom'
+        });
+        sr.reveal('.testimonial-heading',{
+            duration: 2000,
+            delay: 500,
+            origin:'bottom'
+        });
+        sr.reveal('.div-1',{
+            duration: 2000,
+            delay: 800,
+            origin:'bottom'
+        });
+        sr.reveal('.div-2',{
+            duration: 2000,
+            delay: 1300,
+            origin:'bottom'
+        });
+        sr.reveal('.div-3',{
+            duration: 2000,
+            delay: 2000,
+            origin:'bottom'
+        });
+        sr.reveal('.read-more',{
+            duration: 2000,
+            delay: 3000,
+            origin:'bottom',
+            viewFactor: 0.2
+        });
+        sr.reveal('.facebook',{
+            duration: 2000,
+            delay: 2000,
+            origin:'left',
+            distance:'5px'
+        });
+        sr.reveal('.instagram',{
+            duration: 2000,
+            delay: 2300,
+            origin:'left',
+            distance:'5px'
+        });
+        sr.reveal('.phone',{
+            duration: 2000,
+            delay: 2600,
+            origin:'left',
+            distance:'5px'
+        });
+        sr.reveal('.email',{
+            duration: 2000,
+            delay: 2900,
+            origin:'left',
+            distance:'5px'
+        });
+        sr.reveal('.whatsapp',{
+            duration: 2000,
+            delay: '2000',
+            origin:'bottom',
+            distance:'5px'
+        });
+    </script>
+
+    <script>
+        $(function() {
+            // Smooth Scrolling
+            $('a[href*="#"]:not([href="#"])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html, body').animate({
+                        scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
                 }
             });
         });

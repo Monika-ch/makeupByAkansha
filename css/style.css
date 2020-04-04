@@ -113,10 +113,12 @@ h1 {
     text-align: center; }
 
 #work-section {
-  background-color: #fce1e09d; }
+  background-color: #fce1e09d;
+  box-sizing: border-box; }
   #work-section img {
     border-radius: 15px;
-    border-left: 5px solid #8ed0d4; }
+    border-left: 5px solid #8ed0d4;
+    border-bottom: 5px solid #8ed0d4; }
 
 #main-footer {
   font-family: 'Lora', serif;
