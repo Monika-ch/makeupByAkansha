@@ -45,6 +45,10 @@ h1 {
 
 .navbar {
     background-color: $color-black;
+
+    a:hover {
+        color: rgb(187, 239, 255) !important;
+    }
 }
 
 .jumbotron {
@@ -87,7 +91,8 @@ h1 {
         font-family: "Lora", serif;
         background-image: linear-gradient(to right, $color-button-header2, $color-button-header1);
         border: solid 2px rgb(187, 190, 192);
-        margin-top: -25.3%;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, .09), 0 4px 40px rgba(0, 0, 0, .24);
+
     }
 
     img:hover {
