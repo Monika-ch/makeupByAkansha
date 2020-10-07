@@ -71,35 +71,32 @@
 
     <div id="bookingModal" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
-            <div class="modal-content text-white container">
-                <div class="modal-header row ml-2">
-                    <h3 class="modal-title">Book Appointment</h3>
-                    <p>Please fill out this form to confirm your appointment!</p>
+            <div class="modal-content text-light container">
+                <div class="modal-header justify-content-center row">
+                    <h3 class="modal-title mb-1">Book Appointment</h3>
+                    <p>Give us few details to confirm your appointment!</p>
                 </div>
-                <div class="modal-body mt-3">
-                    <div class="container-fluid">
+                <div class="modal-body">
+                    <div class="container-fluid mt-2">
                         <form>
                             <div class="form-row">
-                                <div class="form-group text-center col-8">
+                                <div class="form-group mx-auto col-10">
                                     <label class="sr-only" for="bookingName">Name</label>
-                                    <input type="text" class="form-control form-control-sm" id="bookingName"
+                                    <input type="text" class="form-control form-control-sm p-3" id="bookingName"
                                         placeholder="Enter name">
                                 </div>
-                                <div class="form-group text-center col-8">
+                                <div class="form-group mx-auto text-center col-10">
                                     <label class="sr-only" for="bookingEmail">Email address</label>
-                                    <input type="email" class="form-control form-control-sm" id="bookingEmail"
+                                    <input type="email" class="form-control form-control-sm p-3" id="bookingEmail"
                                         placeholder="Enter email">
                                 </div>
-                                <div class="form-group text-center col-8">
+                                <div class="form-group mx-auto text-center col-10">
                                     <label class="sr-only" for="bookingContact">Contact</label>
-                                    <input type="tel" class="form-control form-control-sm" id="bookingContact"
+                                    <input type="tel" class="form-control form-control-sm p-3" id="bookingContact"
                                         min-length="9" max-length="14" placeholder="Enter Contact Number">
                                 </div>
-                                <div class="text-center">
-                                    <button type="button" class="btn btn-secondary btn-sm ml-auto"
-                                        data-dismiss="modal">Cancel</button>
-                                    <button type="submit" class="btn btn-success btn-sm mt-0 ml-1">Submit</button>
-                                </div>
+                                <button type="submit"
+                                    class="btn btn-sm btn-success col-10 p-2 mx-auto my-3">Submit</button>
                             </div>
                         </form>
                     </div>
@@ -212,7 +209,7 @@
         <div class="container text-center mt-3">
             <div class="row ml-0 justify-content-between">
 
-                <div class="col-12 pb-5 testimonial-heading">
+                <div class="col-12 pb-4 mb-5 testimonial-heading">
                     <h4>..from clients</h4>
                     <p>See what they have to say..</p>
                 </div>
@@ -293,9 +290,74 @@
 
     <!-- Footer -->
 
-    <footer id="main-footer">
-        <p class="text-center mb-0 py-3">Makeup By Akansha Copyright &copy; 2019</p>
+    <footer id="main-footer" class="d-none d-lg-block">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 border-right">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="img/img7.jpg" class="float-left img-fluid rounded-circle" width="200px">
+                            </div>
+                            <div class="col-md-6 mt-4">
+                                <p class="text-center py-3">
+                                    Slots are filling up fast..</p>
+                                <button class="d-flex m-auto btn btn-sm btn-danger p-3" href="#bookingModal"
+                                    data-target="#bookingModal" data-toggle="modal">Hurry Book Now !
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4">
+                    <p class="text-center py-3">Makeup By Akansha Copyright &copy; 2019</p>
+                    <span class="justify-content-center mt-2 d-flex">
+                        <a href="https://www.facebook.com/makeupbyakansha/"
+                            class="btn btn-outline-secondary text-info p-4 mr-3" target="_blank">
+                            <i class="fa fa-lg fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/makeupbyakansha/"
+                            class="btn btn-outline-secondary text-danger p-4" target="_blank">
+                            <i class="fa fa-lg fa-instagram"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <footer id="main-footer" class="d-lg-none">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-5">
+                    <img src="img/img7.jpg" class="float-left img-fluid rounded-circle" width="200px">
+                </div>
+                <div class="col-7">
+                    <div class="border-right py-3 py-md-5">
+                        <p class="text-center">
+                            Slots are filling up fast..</p>
+                        <button class="d-flex mx-auto mt-4 btn btn-sm btn-danger px-3 p-md-3" href="#bookingModal"
+                            data-target="#bookingModal" data-toggle="modal">Hurry Book Now !
+                        </button>
+                    </div>
+                    <div class="mt-4">
+                        <p class="text-center py-3">Makeup By Akansha Copyright &copy; 2019</p>
+                        <span class="justify-content-center mt-2 d-flex">
+                            <a href="https://www.facebook.com/makeupbyakansha/"
+                                class="btn btn-outline-secondary text-info p-4 mr-3" target="_blank">
+                                <i class="fa fa-lg fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/makeupbyakansha/"
+                                class="btn btn-outline-secondary text-danger p-4" target="_blank">
+                                <i class="fa fa-lg fa-instagram"></i>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
 
     <style>
