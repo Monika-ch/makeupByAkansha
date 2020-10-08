@@ -17,8 +17,12 @@ h1 {
 
 .navbar {
   background-color: #000; }
+  .navbar a {
+    padding: 10px 0; }
   .navbar a:hover {
-    color: #bbefff !important; }
+    color: #bbefff !important;
+    border-bottom: #bbb2b2 2px solid;
+    padding: 8px 0; }
 
 .jumbotron {
   margin: 0;

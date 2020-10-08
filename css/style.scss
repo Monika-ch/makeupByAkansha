@@ -59,8 +59,14 @@ h1 {
 .navbar {
     background-color: $color-black;
 
+    a {
+        padding: 10px 0;
+    }
+
     a:hover {
         color: rgb(187, 239, 255) !important;
+        border-bottom: rgb(187, 178, 178) 2px solid;
+        padding: 8px 0;
     }
 }
 

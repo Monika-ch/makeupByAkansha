@@ -297,27 +297,29 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-6">
-                                <img src="img/img7.jpg" class="float-left img-fluid rounded-circle" width="200px">
+                                <img src="img/img7.jpg" class="float-left img-fluid rounded-circle footer-image"
+                                    width="200px">
                             </div>
                             <div class="col-md-6 mt-4">
-                                <p class="text-center py-3">
+                                <p class="text-center py-3 footer-text">
                                     Slots are filling up fast..</p>
-                                <button class="d-flex m-auto btn btn-sm btn-danger p-3" href="#bookingModal"
-                                    data-target="#bookingModal" data-toggle="modal">Hurry Book Now !
+                                <button class="d-flex m-auto btn btn-sm btn-danger p-3 footer-button"
+                                    href="#bookingModal" data-target="#bookingModal" data-toggle="modal">Hurry Book Now
+                                    !
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 mt-4">
-                    <p class="text-center py-3">Makeup By Akansha Copyright &copy; 2019</p>
+                    <p class="text-center py-3 copyright">Makeup By Akansha Copyright &copy; 2019</p>
                     <span class="justify-content-center mt-2 d-flex">
                         <a href="https://www.facebook.com/makeupbyakansha/"
-                            class="btn btn-outline-secondary text-info p-4 mr-3" target="_blank">
+                            class="btn btn-outline-secondary text-info p-4 mr-3 footer-fb" target="_blank">
                             <i class="fa fa-lg fa-facebook"></i>
                         </a>
                         <a href="https://www.instagram.com/makeupbyakansha/"
-                            class="btn btn-outline-secondary text-danger p-4" target="_blank">
+                            class="btn btn-outline-secondary text-danger p-4 footer-insta" target="_blank">
                             <i class="fa fa-lg fa-instagram"></i>
                         </a>
                     </span>
@@ -330,25 +332,25 @@
         <div class="container py-5">
             <div class="row">
                 <div class="col-5">
-                    <img src="img/img7.jpg" class="float-left img-fluid rounded-circle" width="200px">
+                    <img src="img/img7.jpg" class="float-left img-fluid rounded-circle footer-image" width="200px">
                 </div>
                 <div class="col-7">
                     <div class="border-right py-3 py-md-5">
-                        <p class="text-center">
+                        <p class="text-center footer-text">
                             Slots are filling up fast..</p>
-                        <button class="d-flex mx-auto mt-4 btn btn-sm btn-danger px-3 p-md-3" href="#bookingModal"
-                            data-target="#bookingModal" data-toggle="modal">Hurry Book Now !
+                        <button class="d-flex mx-auto mt-4 btn btn-sm btn-danger px-3 p-md-3 footer-button"
+                            href="#bookingModal" data-target="#bookingModal" data-toggle="modal">Hurry Book Now !
                         </button>
                     </div>
                     <div class="mt-4">
-                        <p class="text-center py-3">Makeup By Akansha Copyright &copy; 2019</p>
+                        <p class="text-center py-3 copyright">Makeup By Akansha Copyright &copy; 2019</p>
                         <span class="justify-content-center mt-2 d-flex">
                             <a href="https://www.facebook.com/makeupbyakansha/"
-                                class="btn btn-outline-secondary text-info p-4 mr-3" target="_blank">
+                                class="btn btn-outline-secondary text-info p-4 mr-3 footer-fb" target="_blank">
                                 <i class="fa fa-lg fa-facebook"></i>
                             </a>
                             <a href="https://www.instagram.com/makeupbyakansha/"
-                                class="btn btn-outline-secondary text-danger p-4" target="_blank">
+                                class="btn btn-outline-secondary text-danger p-4 footer-insta" target="_blank">
                                 <i class="fa fa-lg fa-instagram"></i>
                             </a>
                         </span>
@@ -569,7 +571,6 @@
         });
         sr.reveal('.testimonial-heading', {
             duration: 1700,
-            // delay: 100,
             origin: 'bottom'
         });
         sr.reveal('.div-1', {
@@ -622,6 +623,35 @@
             delay: '2000',
             origin: 'bottom',
             distance: '5px'
+        });
+        sr.reveal('.footer-image', {
+            duration: 2000,
+            origin: 'right',
+            distance: '70px'
+        });
+        sr.reveal('.footer-text', {
+            duration: 2000,
+            delay: '200',
+            origin: 'right',
+            distance: '50px'
+        });
+        sr.reveal('.footer-button', {
+            duration: 2000,
+            delay: '200',
+            origin: 'right',
+            distance: '50px'
+        });
+        sr.reveal('.copyright', {
+            duration: 2000,
+            delay: '500',
+            origin: 'left',
+            distance: '80px'
+        });
+        sr.reveal('.footer-fb, .footer-insta', {
+            duration: 2000,
+            delay: '500',
+            origin: 'left',
+            distance: '80px'
         });
     </script>
 
