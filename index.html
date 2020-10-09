@@ -33,13 +33,13 @@
             <div class="collapse navbar-collapse" id="makeupByAkanshaNavbar">
                 <ul class="navbar-nav">
                     <!-- <li class="nav-item active"><a href="#" class="nav-link">Home</a></li> -->
-                    <li class="nav-item"><a href="aboutus.html" class="nav-link">Artist's Bio</a></li>
-                    <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                    <li class="nav-item"><a href="tourtowork.html" class="nav-link">Tour To Work</a></li>
-                    <li class="nav-item"><a href="events.html" class="nav-link">Events &amp; Workshops</a></li>
-                    <li class="nav-item"><a href="products.html" class="nav-link">Products</a></li>
-                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-                    <li class="nav-item"><a href="praises.html" class="nav-link">Praises</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Artist's Bio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Tour To Work</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Events &amp; Workshops</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Praises</a></li>
                 </ul>
             </div>
         </div>
@@ -82,18 +82,19 @@
                             <div class="form-row">
                                 <div class="form-group mx-auto col-10">
                                     <label class="sr-only" for="bookingName">Name</label>
-                                    <input type="text" class="form-control form-control-sm p-3" id="bookingName"
-                                        placeholder="Enter name">
+                                    <input type="text" minlength="3" maxlength="30"
+                                        class="form-control form-control-sm p-3" id="bookingName"
+                                        placeholder="Enter name" required>
                                 </div>
                                 <div class="form-group mx-auto text-center col-10">
                                     <label class="sr-only" for="bookingEmail">Email address</label>
                                     <input type="email" class="form-control form-control-sm p-3" id="bookingEmail"
-                                        placeholder="Enter email">
+                                        placeholder="Enter email" required minlength="7" maxlength="30">
                                 </div>
                                 <div class="form-group mx-auto text-center col-10">
                                     <label class="sr-only" for="bookingContact">Contact</label>
                                     <input type="tel" class="form-control form-control-sm p-3" id="bookingContact"
-                                        min-length="9" max-length="14" placeholder="Enter Contact Number">
+                                        minlength="9" maxlength="14" placeholder="Enter Contact Number" required>
                                 </div>
                                 <button type="submit"
                                     class="btn btn-sm btn-success col-10 p-2 mx-auto my-3">Submit</button>
@@ -575,22 +576,22 @@
         });
         sr.reveal('.div-1', {
             duration: 2000,
-            delay: 450,
+            delay: 400,
             origin: 'bottom'
         });
         sr.reveal('.div-2', {
             duration: 2000,
-            delay: 1200,
+            delay: 700,
             origin: 'bottom'
         });
         sr.reveal('.div-3', {
             duration: 2000,
-            delay: 1800,
+            delay: 1000,
             origin: 'bottom'
         });
         sr.reveal('.read-more', {
             duration: 2000,
-            delay: 3000,
+            delay: 1300,
             origin: 'bottom',
             viewFactor: 0.2
         });

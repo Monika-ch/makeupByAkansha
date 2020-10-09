@@ -283,4 +283,11 @@ h1 {
   #image-carousel h1 {
     font-size: 30px; }
   #image-carousel p {
-    font-size: 18px; } }
+    font-size: 18px; }
+  #socialHandles .btn {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(144, 199, 199, 0.363));
+    opacity: .8;
+    font-size: 12px;
+    border-radius: 50px; }
+  #socialHandles .btn:hover {
+    opacity: 1; } }
