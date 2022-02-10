@@ -26,7 +26,7 @@
     "gh-pages": "^3.1.0",
     "imagemin-cli": "^3.0.0",
     "lite-server": "^2.3.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "onchange": "^3.3.0",
     "parallelshell": "^3.0.1",
     "rimraf": "^2.6.2",
